@@ -1,6 +1,6 @@
 # Taller Integrador ARSW 2026-I — Evolución de Arquitecturas Distribuidas
 
-**Autor:** Diego Ortiz
+**Autor:** Hildebrando Peña Quezada
 **Curso:** Arquitecturas de Software (ARSW) — Escuela Colombiana de Ingeniería Julio Garavito
 **Caso evolucionado:** Sistema de Gestión de Salones / Inventario de Laboratorios / Bienestar Universitario
 
