@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "wellness.medical";
+option java_outer_classname = "MedicalProto";
+
+service MedicalService {
+  rpc GetSpecialties (EmptyRequest) returns (SpecialtyList);
+  rpc GetSpecialty (SpecialtyRequest) returns (Specialty);
+}
+
+message EmptyRequest {
+}
+
+message SpecialtyRequest {
+  string code = 1;
+}
+
+message Specialty {
+  string code = 1;
+  string name = 2;
+  bool available = 3;
+}
+
+message SpecialtyList {
+  repeated Specialty specialties = 1;
+}
